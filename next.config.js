@@ -3,9 +3,9 @@
 module.exports = {
   publicRuntimeConfig: {
     APP_NAME: 'NODE-REACT-AWS',
-    API: '/api',
+    API: 'https://react-node-aws-api.herokuapp.com/api',
     PRODUCTION: false,
-    DOMAIN: 'https://localhost:3000',
+    DOMAIN: 'https://react-node-aws.herokuapp.com/',
     FB_APP_ID: '707G75DS76G98SD5GF6G'
   }
 };
