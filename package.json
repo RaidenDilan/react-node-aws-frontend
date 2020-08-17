@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "keywords": [],
   "author": "Raiden Dilan <raiden18@me.com> (https://www.raidendilan.co.uk)",
