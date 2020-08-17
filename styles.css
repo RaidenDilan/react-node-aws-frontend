@@ -1,0 +1,14 @@
+#nprogress .bar {
+  background: red !important;
+  height: 2px !important;
+  /* position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%; */
+}
+
+.nav a:hover {
+  border-radius: 0px !important;
+}
