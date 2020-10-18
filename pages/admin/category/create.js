@@ -35,8 +35,7 @@ const Create = ({ user, token }) => {
 
   const handleImage = event => {
     let fileInput = false;
-    if (event.target.files[0]) 
-      fileInput = true;
+    if (event.target.files[0]) fileInput = true;
     
     setImageUploadButtonName(event.target.files[0].name);
     if (fileInput) {

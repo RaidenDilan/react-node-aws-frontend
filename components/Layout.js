@@ -81,11 +81,13 @@ const Layout = ({ children }) => {
     </ul>
   );
 
-  return <Fragment>
-    { head() }
-    { nav() }
-    <div className='container pt-5 pb-5'>{ children }</div>
-  </Fragment>;
+  return (
+    <Fragment>
+      { head() }
+      { nav() }
+      <div className='container pt-5 pb-5'>{ children }</div>
+    </Fragment>
+  );
 };
 
 export default Layout;
